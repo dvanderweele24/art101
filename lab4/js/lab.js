@@ -1,21 +1,24 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 4: Pseudocoding and Problem-Solving - Making Avocado Toast and Playing Snake 
+// Author: Drew Vander Weele 
+// Date: 10/17/24
 
-// Constants
 
-// Functions
+//Making Avocado Toast 
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+//Take bread out of the refrigerator.
+//Toast bread in a toaster for the desired time. 
+//Cut avocado into slices. 
+//Place toast on a plate. 
+//Spread avocado slices onto toast.
+//Sprinkle on everything bagel seasoning on toast.
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
 
-// let's get this party started
-main();
+//Playing the game Snake
+
+//Guide the snake to the apple in a left, right, down, or up direction.
+//After the snake eats the apple it grows by one.
+//Avoid walls and the snake’s own body while collecting apples.
+//The game continues until the snake runs into itself or a wall, or if there is no space left.
+
+
+
