@@ -1,11 +1,5 @@
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
 
-  .minor-section {
+minor-section {
     padding: 10px;
     color: white;
     margin-bottom: 10px;
@@ -20,4 +14,8 @@ color: white;
 font-family: Georgia, 'Times New Roman', Times, serif;
 align-items: center;
 min-height: fit-content;
+margin-bottom: 10px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+border: solid 10px #27017a;
+background-color: #6a4ea7;
 }
