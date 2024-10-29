@@ -13,7 +13,6 @@ function sortUserName() {
     var nameSorted = nameArraySort.join('');
     console.log("nameSorted =", nameSorted);
     return nameSorted;
+    // output 
+    document.writeln("Horray! I fixed your name!: ", sortUserName(), "</br>");
 }
-
-// output 
-document.writeln("Horray! I fixed your name!: ", sortUserName(), "</br>");
