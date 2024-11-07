@@ -10,13 +10,13 @@ function generateRandomText(){
     const max = 100;
     const randLen = Math.floor(Math.random() * (max - min +1)) + min;
     // Get a random starting index to slice the Lorem ipsum text
-    const randStart = Math.floor(Math.random() * (text.length - randLen + 1));
+    const randStart = Math.floor(Math.random() * (text.length - randLen +1));
     // Generate the random Lorem ispum-like text
-    return text.slice(randStart, randStart, randLen);
+    return text.slice(randStart, randStart + randLen);
 }
 
 //click listener for button 
-$("make-convo").click(function(){
+$("#make-convo").click(function(){
 
    //get new fake dialogue
    const newText = generateRandomText();
