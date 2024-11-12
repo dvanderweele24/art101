@@ -10,7 +10,7 @@ function sortString(str) {
 }
    
 //Add event listener
-$("submit").click(function(){
+$("submit").click(function() {
    //Get value of input field
    console.log($('#user-name').val());
    let userName = $('#user-name').val();
@@ -20,6 +20,6 @@ $("submit").click(function(){
 
    //Append to a new div to our output div
    $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
-   });
-   
+});
+
    console.log("Button clicked!");
