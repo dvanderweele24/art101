@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 11: Javascript Events and Forms</title>
+    <link rel="stylesheet" type="text/css" href="css/lab11.css">
+    <script src="js/lab11.js" DEFER></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <main id="content">
+      <section>
+        <h1>Lab 11: Javascript Events and Forms</h1>
+        <div class="minor section">
+                <h2>Challenge</h2>
+                <p></p>
+        </div>
+        <div class="minor section">
+                <h2>Problems</h2>
+                <p></p>
+        </div>
+        <div class="minor section">
+                <h2>Reflection</h2>
+                <p></p>
+        </div>
+        <div id="results" class="minor section">
+                <h2>Results</h2>
+                <p>Click to see the results!</p>
+                <nav id="links"
+                <div id="output"></div>
+                <input type="text" id="username" placeholders="Enter your name">
+                <button id="submit">Submit</button>
+        </div>
+        <script>
+            //Sorts the charaters of a string in an alphabetical order.
+            function sortString(str) {
+            return str.split('').sort().join('');
+            }
+            //Add event listener
+            $("submit").click(function(){
+            //Get value of input field
+            console.log($('#user-name').val());
+            let userName = $('#user-name').val();
+            //Now sort it  
+            let userNamesorted = sortString(userName);
+            //Append to a new div to our output div
+            $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
+            });
+            console.log("Button clicked!");
+        </script>
+      </section>
+    </main> 
+</body>
+</html>
