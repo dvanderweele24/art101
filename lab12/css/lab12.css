@@ -1,0 +1,20 @@
+minor-section {
+    padding: 10px;
+    color: white;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid 10px #27017a;
+    background-color: #6a4ea7;
+  }
+
+#content{
+background-color: black;
+color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+align-items: center;
+min-height: fit-content;
+margin-bottom: 10px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+border: solid 10px #27017a;
+background-color: #6a4ea7;
+}
